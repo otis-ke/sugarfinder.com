@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SugarFinder.com - Premium Dating</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="glocks.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="glocks.svg" alt="SugarFinder Logo">
+        </div>
+        <h1>Find Your Perfect Match on SugarFinder</h1>
+    </header>
+
+    <section class="hero">
+        <h2>Connect with Sugar Daddies, Mommies, and Babies</h2>
+        <p>Join our premium service and start your journey today.</p>
+        <button id="signupButton">Sign Up Now</button>
+    </section>
+
+    <section id="signupFormSection" class="signup-form">
+        <h2>Sign Up and Find Your Match</h2>
+        <form id="signupForm">
+            <label for="userType">I am a:</label>
+            <select id="userType" required>
+                <option value="">Select...</option>
+                <option value="sugarDaddy">Sugar Daddy</option>
+                <option value="sugarMommy">Sugar Mommy</option>
+                <option value="sugarBaby">Sugar Baby</option>
+            </select>
+
+            <label for="genderPreference">Looking for:</label>
+            <select id="genderPreference" required>
+                <option value="">Select...</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="ethnicityPreference">Ethnicity Preference:</label>
+            <select id="ethnicityPreference" required>
+                <option value="">Select...</option>
+                <option value="any">Any</option>
+                <option value="white">White</option>
+                <option value="black">Black</option>
+                <option value="asian">Asian</option>
+                <option value="latino">Latino</option>
+            </select>
+
+            <label for="agePreference">Age Range:</label>
+            <input type="number" id="ageMin" placeholder="Min Age" required>
+            <input type="number" id="ageMax" placeholder="Max Age" required>
+
+            <button type="submit">Find Matches</button>
+        </form>
+    </section>
+
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <h3>1. Join</h3>
+                <p>Sign up and create your profile.</p>
+            </div>
+            <div class="step">
+                <h3>2. Talk</h3>
+                <p>Start chatting with potential matches.</p>
+            </div>
+            <div class="step">
+                <h3>3. Meet</h3>
+                <p>Plan your first meeting and enjoy!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SugarFinder.com. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

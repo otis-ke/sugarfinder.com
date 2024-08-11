@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SugarFinder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="glocks.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="glocks.svg" alt="Logo" />
+            </div>
+           
+            <!-- Hamburger Menu -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="login.html">sign in</a></li>
+                <li><a href="#success-stories">success stories</a></li>
+                <li><a href="#our-goals">our goals</a></li>
+                <li><button class="close-menu" id="close-menu">&times;</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to SugarFinder</h1>
+            <img src="hhh.png" alt="Entry Image" class="hero-image">
+            <p>Your exclusive dating platform for sugar daddies, mommies, and babies.</p>
+            <a href="login.html" class="cta-button">Join Now</a>
+            
+        </section>
+
+
+        <section id="benefits" class="benefits-section">
+            <div class="container">
+                <h2>Why Choose SugarFinder?</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <img src="free-removebg-preview.png" alt="Premium Membership">
+                        <h3>free Membership</h3>
+                        <p>Access exclusive features that connect you with serious, like-minded individuals.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="images__1_56-removebg-preview.png" alt="Security">
+                        <h3>Security</h3>
+                        <p>Your privacy and safety are our top priorities. Enjoy secure transactions and confidential interactions.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="mmmmatch.png" alt="Tailored Matches">
+                        <h3>Tailored Matches</h3>
+                        <p>Our advanced algorithms match you with members who meet your criteria, ensuring meaningful connections.</p>
+                    </div>
+                    <div class="benefit-item">
+                        <img src="ndegw-removebg-preview.png" alt="Global Community">
+                        <h3>Global Community</h3>
+                        <p>Connect with members worldwide who share your lifestyle and values.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="success-stories" class="success-stories-section">
+            <h1>Success Stories</h1>
+            <h2>Read about how our users found love on our platform</h2>
+            <div class="slider-container">
+              <div id="story-slider" class="slider">
+                <div class="slider-item">
+                  <img src="1t.jpg" alt="Story 1">
+                  <div class="slider-content">
+                    <h3>Emily & John</h3>
+                    <p>Emily and John found each other and quickly realized they were meant to be.</p>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <img src="sarah.jpg" alt="Story 2">
+                  <div class="slider-content">
+                    <h3>Sarah & Michael</h3>
+                    <p>After months of searching, Sarah finally met Michael, and they've been inseparable since.</p>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <img src="3t.jpg" alt="Story 3">
+                  <div class="slider-content">
+                    <h3>Anna & James</h3>
+                    <p>Anna and James bonded over their love for travel and have been exploring the world together.</p>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <img src="4t.jpg" alt="Story 4">
+                  <div class="slider-content">
+                    <h3>Lisa & Robert</h3>
+                    <p>Lisa and Robert's first date was magical, and their relationship has only grown stronger.</p>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <img src="5t.jpg" alt="Story 5">
+                  <div class="slider-content">
+                    <h3>Jessica & Daniel</h3>
+                    <p>Jessica and Daniel met on the platform and have been happily together ever since.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-arrow slider-arrow-left" onclick="moveLeft()">&#10094;</div>
+              <div class="slider-arrow slider-arrow-right" onclick="moveRight()">&#10095;</div>
+            </div>
+          </section>
+
+          <section id="our-goals" class="goals-section">
+            <div class="container">
+                <h2>Our Mission at SugarFinder</h2>
+                <p>To create a safe, premium platform where sugar daddies/mommies and sugar babies can form meaningful and mutually beneficial relationships.</p>
+                
+               <img src="images-removebg-preview.png" alt="Our Goals Image"> 
+                <p>We prioritize privacy, security, and quality, ensuring our members have the best possible experience.</p>
+                
+                <img src="hhh.png" alt="Our Goals Image">
+              
+            </div>
+        </section>
+        
+          
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 SugarFinder.com. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

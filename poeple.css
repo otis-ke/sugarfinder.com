@@ -1,0 +1,178 @@
+
+
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff4081;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.my-profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-name {
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+}
+
+.profile-sections {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.profile-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(25% - 20px); /* Each card takes 25% of the row width minus gap */
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+}
+
+.profile-info {
+    padding: 15px;
+}
+
+.profile-info h3 {
+    margin: 10px 0;
+}
+
+.match-button, .message-button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.match-button {
+    background-color: #ff4081;
+    color: white;
+}
+
+.message-button {
+    background-color: #eeeeee;
+    color: #333333;
+}
+
+@media (max-width: 768px) {
+    .profile-grid {
+        gap: 15px;
+    }
+
+    .profile-card {
+        width: calc(50% - 15px); /* Two profiles per row on small devices */
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .profile-pic {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-grid {
+        gap: 10px;
+    }
+
+    .profile-card {
+        width: calc(100% - 10px); /* One profile per row on extra small devices */
+    }
+
+    .logo {
+        height: 35px;
+    }
+
+    .profile-pic {
+        width: 25px;
+        height: 25px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar ul li {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
